@@ -12,7 +12,7 @@ function exibirTextoTela(tag, texto){
 
 function exibirMensagemInicial(){
     exibirTextoTela('h1','Jogo do número secreto');
-    exibirTextoTela('p', 'Escolha um número de 1 a 10:');
+    exibirTextoTela('p', `Escolha um número de 1 a ${numMax}:`);
 }
 
 function gerarNumAleatorio(){
