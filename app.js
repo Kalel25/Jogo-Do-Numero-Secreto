@@ -41,9 +41,9 @@ function verificarChute() {
          let mensagemTentativa = `Você acertou o número secreto (${numeroSecreto}) em ${tentativas} ${palavraTentativa}!`
         exibirTextoTela('p', mensagemTentativa);
         document.getElementById('reiniciar').removeAttribute ('disabled');
-    } else if (isNaN(chute)) || chute == '' || chute < 0 || chute > numMax)
+    } else if (isNaN(chute)) || chute == '' || chute < 0 || chute > numMax) {
         exibirTextoTela('p', 'Valor inválido');
-    else if (chute > numeroSecreto){
+    } else if (chute > numeroSecreto){
         exibirTextoTela('p', `O número secreto é menor que ${chute}.`);
     } else {
         exibirTextoTela('p',`O número secreto é maior que ${chute}.`);
