@@ -11,4 +11,4 @@
 </div>
 
 ## Colaboradores :busts_in_silhouette:
-[![Kalel](https://avatars.githubusercontent.com/u/261484245?v=4&size=64)]([https://github.com/account](https://github.com/Kalel25))
+[![Kalel](https://avatars.githubusercontent.com/u/261484245?v=4&size=64)](https://github.com/Kalel25)
